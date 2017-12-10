@@ -74,25 +74,25 @@ h2 a {
 /* Background-color of the odd rows */
 
 .container tr:nth-child(odd) {
-  background-color: #323C50;
+  background-color: #eaeae1;
 }
 
 /* Background-color of the even rows */
 
 .container tr:nth-child(even) {
-  background-color: #2C3446;
+  background-color: #f5f5f0;
 }
 
 .container th {
-  background-color: #1F2739;
+  background-color: #d7d7c1;
 }
 
 .container td:first-child {
-  color: #FB667A;
+  color: #7c0313;
 }
 
 .container tr:hover {
-  background-color: #464A52;
+  background-color: #c8cad0;
   -webkit-box-shadow: 0 6px 6px -6px #0E1119;
   -moz-box-shadow: 0 6px 6px -6px #0E1119;
   box-shadow: 0 6px 6px -6px #0E1119;
