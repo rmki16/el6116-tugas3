@@ -40,7 +40,7 @@
         <tr>
           <th><h1>Full Name</h1></th>
           <th><h1>Join Year</h1></th>
-          <th><h1>noveltype</h1></th>
+          <th><h1>Novel Type</h1></th>
           <th><h1>Direct Report</h1></th>
         </tr>
       </thead>
