@@ -1,0 +1,13 @@
+Adventure
+Children
+Drama
+Fantasy
+Horror
+Humor
+Mystery
+Nonfiction
+Romance
+Sci-Fi
+
+Source:
+http://www.fantasynamegenerators.com/book-title-generator.php
