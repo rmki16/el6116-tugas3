@@ -28,6 +28,7 @@
 <html>
   <head>
     <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
