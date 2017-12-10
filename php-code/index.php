@@ -11,15 +11,15 @@
               idx,fullname,joinyear,noveltype,editor FROM tugas3.publisher WHERE
               fullname LIKE '$fullname' AND joinyear LIKE '$joinyear' AND noveltype LIKE '$noveltype'
               AND editor LIKE '$editor' ORDER BY idx ASC");
-    $statistics = mysqli_query($mysqli, "SELECT AVG(sales2011) as '2011',AVG(sales2012) as
-                  '2012',AVG(sales2013) as '2013',AVG(sales2014) as '2014',AVG(sales2015) as
-                  '2015',AVG(sales2016) as '2016',AVG(sales2017) as '2017' FROM tugas3.publisher
+    $statistics = mysqli_query($mysqli, "SELECT AVG(sales2011) as '2011',AVG(sales2012) as '2012',
+                  AVG(sales2013) as '2013',AVG(sales2014) as '2014',AVG(sales2015) as '2015',
+                  AVG(sales2016) as '2016',AVG(sales2017) as '2017' FROM tugas3.publisher
                   WHERE fullname LIKE '$fullname' AND joinyear LIKE '$joinyear' AND
                   noveltype LIKE '$noveltype' AND editor LIKE '$editor'");
     } else {
-      $statistics = mysqli_query($mysqli, "SELECT AVG(sales2011) as '2011',AVG(sales2012) as
-                    '2012',AVG(sales2013) as '2013',AVG(sales2014) as '2014',AVG(sales2015) as
-                    '2015',AVG(sales2016) as '2016',AVG(sales2017) as '2017'
+      $statistics = mysqli_query($mysqli, "SELECT AVG(sales2011) as '2011',AVG(sales2012) as '2012',
+                    AVG(sales2013) as '2013',AVG(sales2014) as '2014',AVG(sales2015) as '2015',
+                    AVG(sales2016) as '2016',AVG(sales2017) as '2017'
                     FROM tugas3.publisher ORDER BY idx ASC");
       $result = mysqli_query($mysqli, "SELECT idx,fullname,joinyear,noveltype,editor FROM tugas3.publisher ORDER BY idx ASC");
     }
