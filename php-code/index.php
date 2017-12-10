@@ -33,7 +33,7 @@
 
   <body>
     <h1>Publisher</h1>
-    <h2><a href="#">Home</a> | <a href="index.php">Database</a></h2>
+    <h2><a href="#">Home</a> | <a href="index.php">Database</a> | <a href="price.php">Price per Copy</a></h2>
 
     <table class="container">
       <thead>
