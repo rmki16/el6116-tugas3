@@ -174,7 +174,7 @@
 
           <td align="left">
             <?php
-              $stats = mysqli_fetch_array($statistics);
+/*            $stats = mysqli_fetch_array($statistics);
               echo $stats['2011']."</br>";
               echo $stats['2012']."</br>";
               echo $stats['2013']."</br>";
@@ -182,6 +182,30 @@
               echo $stats['2015']."</br>";
               echo $stats['2016']."</br>";
               echo $stats['2017']."</br>";
+*/
+
+              $num_query = mysqli_num_rows($result);
+              if($num_query<5)
+              {
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+                echo "0.0000</br>";
+              }
+              else
+              {
+                $stats = mysqli_fetch_array($statistics);
+                echo $stats['2011']."</br>";
+                echo $stats['2012']."</br>";
+                echo $stats['2013']."</br>";
+                echo $stats['2014']."</br>";
+                echo $stats['2015']."</br>";
+                echo $stats['2016']."</br>";
+                echo $stats['2017']."</br>";
+              }
             ?>
           </td>
         </tr>
